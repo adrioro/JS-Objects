@@ -15,3 +15,16 @@ function alertThis() {
   document.write(myName.length);
 }
 alertThis()
+
+console.log(myName.charAt(0)); // It prints A
+console.log(myName.charAt(5)); // It prints n
+console.log(myName.search('A')); //It prints 0
+console.log(myName.search('n')); // It prints 5
+
+var thisArray = ["Mony", "Dave", "Sam", "Peter", "Peggy", "Tim"];
+
+console.log(thisArray.length);
+
+//This is an Object:
+
+var myObject = {};
