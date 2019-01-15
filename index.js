@@ -28,3 +28,16 @@ console.log(thisArray.length);
 //This is an Object:
 
 var myObject = {};
+
+//I can say:
+myObject.color = "red"; // Then I get {color: "red"}
+//Or I can write:
+var myObject = {
+  color: "red",
+};
+//And I can add:
+var myObject = {
+  color: "red",
+  size: "big",
+  number: 32,
+}; // Then I get {color: "red", size: "big", number: 32}
